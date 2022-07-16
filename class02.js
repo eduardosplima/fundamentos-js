@@ -392,8 +392,8 @@ class Class02 {
 
 function main() {
   const [, , topic] = process.argv;
-  const class01 = new Class02();
-  class01[topic]?.();
+  const class02 = new Class02();
+  class02[topic]?.();
 }
 
 main();
